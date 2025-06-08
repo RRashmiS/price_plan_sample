@@ -1,7 +1,10 @@
 .App {
   text-align: center;
+  
 }
-
+.AppContainer{
+  background: #F6F6FF;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -27,7 +30,18 @@
 .App-link {
   color: #61dafb;
 }
-
+.ant-segmented-item-selected {
+  background-color: #7677FB !important;
+  color: #fff !important;  
+  border-radius: 50px !important;            
+}
+.ant-segmented{
+  background-color: #fff !important;
+          
+}
+.ant-segmented-item {
+  transition: background-color 0.3s, color 0.3s;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
